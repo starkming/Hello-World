@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World", "Hello World\Hello World.csproj", "{5CD527C8-C5C4-4C4B-9019-20003C1D7A0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paint App", "Paint App\Paint App.csproj", "{DEE1C62E-D81E-4EC2-B9B7-ABCCD52AD492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paint_Editor_App", "Paint_Editor_App\Paint_Editor_App.csproj", "{8643A038-E722-44FF-9093-E0A8C1A9188F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CD527C8-C5C4-4C4B-9019-20003C1D7A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD527C8-C5C4-4C4B-9019-20003C1D7A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD527C8-C5C4-4C4B-9019-20003C1D7A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD527C8-C5C4-4C4B-9019-20003C1D7A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE1C62E-D81E-4EC2-B9B7-ABCCD52AD492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE1C62E-D81E-4EC2-B9B7-ABCCD52AD492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE1C62E-D81E-4EC2-B9B7-ABCCD52AD492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE1C62E-D81E-4EC2-B9B7-ABCCD52AD492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8643A038-E722-44FF-9093-E0A8C1A9188F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8643A038-E722-44FF-9093-E0A8C1A9188F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8643A038-E722-44FF-9093-E0A8C1A9188F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8643A038-E722-44FF-9093-E0A8C1A9188F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DEE1C62E-D81E-4EC2-B9B7-ABCCD52AD492}</ProjectGuid>
+    <ProjectGuid>{8643A038-E722-44FF-9093-E0A8C1A9188F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Paint_App</RootNamespace>
-    <AssemblyName>Paint App</AssemblyName>
+    <RootNamespace>Paint_Editor_App</RootNamespace>
+    <AssemblyName>Paint_Editor_App</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Paint App.cs">
+    <Compile Include="Paint Editor App.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Paint App.Designer.cs">
-      <DependentUpon>Paint App.cs</DependentUpon>
+    <Compile Include="Paint Editor App.Designer.cs">
+      <DependentUpon>Paint Editor App.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Paint App.resx">
-      <DependentUpon>Paint App.cs</DependentUpon>
+    <EmbeddedResource Include="Paint Editor App.resx">
+      <DependentUpon>Paint Editor App.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
